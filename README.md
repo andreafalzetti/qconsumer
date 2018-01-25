@@ -7,7 +7,7 @@ This is a POC, not production-ready AT ALL!
 
 Import:
 ```
-const QueueConsumer = require('./lib/queue-consumer');
+const QueueConsumer = require('qconsumer');
 ```
 
 ### AWS SQS
