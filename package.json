@@ -1,0 +1,19 @@
+{
+  "name": "qconsumer",
+  "version": "1.0.0",
+  "description": "Agnostic message queue consumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreafalzetti/queue-consumer.git"
+  },
+  "author": "Andrea Falzetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreafalzetti/queue-consumer/issues"
+  },
+  "homepage": "https://github.com/andreafalzetti/queue-consumer#readme"
+}
