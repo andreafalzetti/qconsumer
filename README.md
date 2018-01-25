@@ -11,7 +11,7 @@ const QueueConsumer = require('qconsumer');
 ```
 
 ### AWS SQS
-```
+```js
 const consumer = new QueueConsumer({
     queueUrl: SQS_QUEUE_URL,
     provider: 'sqs',
@@ -24,7 +24,7 @@ consumer.start();
 ```
 
 ### AMQP
-```
+```js
 const consumer = new QueueConsumer({
     amqpUrl: AMQP_URL,
     queueName: AMQP_QUEUE_NAME,
@@ -38,7 +38,7 @@ consumer.start();
 ```
 
 ### PubSub (WIP)
-```
+```js
 const consumer = new QueueConsumer({
     projectId: GCP_PROJECT_ID,
     provider: 'pubsub'
