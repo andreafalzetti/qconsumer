@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/andreafalzetti/queue-consumer/issues"
   },
-  "homepage": "https://github.com/andreafalzetti/queue-consumer#readme"
+  "homepage": "https://github.com/andreafalzetti/queue-consumer#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.16.2",
+    "amqplib": "^0.5.2",
+    "sqs-consumer": "^3.8.0"
+  }
 }
