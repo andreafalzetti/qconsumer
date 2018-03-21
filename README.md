@@ -1,4 +1,4 @@
-# qconsumer
+# [DEPRECATED] qconsumer
 ------
 
 This is a POC, not production-ready AT ALL!
